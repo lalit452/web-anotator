@@ -1,0 +1,79 @@
+/* General button styling */
+button {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Specific button colors */
+button#yellow {
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+button#light-green {
+  background-color: #8bc34a;
+  color: #fff;
+}
+
+button#aqua {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+button#add-note {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+button#export-notes {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* Color picker styling */
+input[type="color"] {
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effects */
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+/* Adding shadow and hover effect */
+button {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: darken(10%);
+}
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+button {
+  margin: 5px;
+}
+
+input[type="color"] {
+  margin: 5px;
+}
+ */
